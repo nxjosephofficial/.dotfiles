@@ -1,1 +1,0 @@
-![alt text](/desktop.png)
