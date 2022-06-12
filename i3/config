@@ -219,6 +219,9 @@ bindsym $mod+m exec --no-startup-id rofi-beats
 
 # Launch everything in floating mode
 for_window [class=".*"] floating enable
+for_window [class="LeagueClient.exe"] floating disable
+for_window [class="RiotClientServices.exe"] floating disable
+for_window [class="LeagueClientUxRender.exe"] floating disable
 
 # border_radius x
 border_radius 10
