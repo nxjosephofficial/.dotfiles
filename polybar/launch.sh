@@ -1,0 +1,1 @@
+/home/nxjoseph/.config/polybar/launch.sh
