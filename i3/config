@@ -222,12 +222,6 @@ for_window [class=".*"] floating enable
 for_window [class="LeagueClient.exe"] floating disable
 for_window [class="RiotClientServices.exe"] floating disable
 for_window [class="LeagueClientUxRender.exe"] floating disable
-for_window [class="csgo_linux64"] floating disable
 
 # border_radius x
 border_radius 10
-
-# live wallpaper
-# https://github.com/thomas10-10/foo-Wallpaper-Feh-Gif
-exec_always --no-startup-id killall back4.sh
-exec_always --no-startup-id back4.sh auto ~/.gifs/6.gif
