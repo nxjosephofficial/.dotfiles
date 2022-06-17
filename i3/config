@@ -215,13 +215,18 @@ focus_follows_mouse no
 bindsym $mod+t exec --no-startup-id librewolf
 
 # rofi-beats
-bindsym $mod+m exec --no-startup-id rofi-beats
+bindsym $mod+m exec --no-startup-id $HOME/.local/bin/rofi-beats
 
 # Launch everything in floating mode
 for_window [class=".*"] floating enable
 for_window [class="LeagueClient.exe"] floating disable
 for_window [class="RiotClientServices.exe"] floating disable
 for_window [class="LeagueClientUxRender.exe"] floating disable
+for_window [class="csgo_linux64"] floating disable
 
 # border_radius x
 border_radius 10
+
+# gif
+exec_always --no-startup-id $HOME/.local/bin/launch.sh &
+
