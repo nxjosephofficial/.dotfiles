@@ -1,5 +1,5 @@
-XTerm*Background: black
-XTerm*Foreground: white
+! XTerm*Background: black
+! XTerm*Foreground: white
 xterm*ScrollBar: true
 XTerm*selectToClipboard: true
 ! Dracula Xresources palette
