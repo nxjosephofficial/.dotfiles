@@ -1,4 +1,5 @@
 URxvt*font:           xft:Inconsolata:size=15
+URxvt.internalBorder:  10
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.scrollBar_floating: false
